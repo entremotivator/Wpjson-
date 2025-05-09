@@ -13,7 +13,8 @@ api_key = st.text_input("API Key (from WordPress plugin)", type="password")
 # User credentials
 st.header("User Credentials")
 username = st.text_input("Username")
-password = st_text.input("Password", type="password")
+password = st.text_input("Password", type="password")
+
 token_expiry_hours = st.number_input("Token Expiry (hours)", 1, 720, 24)
 
 def get_wp_jwt(username, password):
