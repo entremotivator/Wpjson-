@@ -56,5 +56,3 @@ st.sidebar.markdown("""
 - Application Passwords are different from your regular WP password.
 - No plugin required for this method (WP 5.6+).
 """)
-integration
-""")
